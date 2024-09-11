@@ -31,7 +31,7 @@ function Fileupload() {
       <form onSubmit={handleSubmit}>
        <h3>Töltse fel a kívánt fájlt</h3>
        <input type="file" onChange={handleChange}/>
-       <button type="submit">Feltöltés</button>
+       <button type="submit">Fel</button>
        </form>
      </div> 
      );
