@@ -3,7 +3,6 @@ const Header = () => {
         <header>
             <h1>Első project</h1>
         </header>
-        
     )
 }
 
