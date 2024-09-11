@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 
-function Fileupload() {
+const Fileupload = () => {
 
   const [file, setFile] = useState()
 
@@ -20,9 +20,9 @@ function Fileupload() {
         'content-type': 'multipart/form-data',
       },
     };
-    axios.post(url, formData, config).then((response) => {
-      console.log(response.data);
-    });
+    // axios.post(url, formData, config).then((response) => {
+    //   console.log(response.data);
+    // });
 
   }
 
